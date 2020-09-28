@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Find the precious!</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav>
+            <ul class="nav">
+                <li id="precious">FindThePrecious.com</li>
+                <li id="fellows">Fellows</li>
+                <li id="contact">Contact us</li>
+            </ul>
+        </nav>
+        <div class="carousel">
+            <a href="https://placeholder.com"><img src="https://via.placeholder.com/160" alt="Image 160"></a>
+        </div>
+        <section>
+          <h2>Fellows wanted dead <span id="alive">(or alive if you want to eat them later)</span></h2>
+        </section>
+        <div class="allarticle">
+            <a href="https://placeholder.com"><img src="https://viaplaceholder.com/40" alt="Image40"></a>
+            <a href="https://placeholder.com"><img src="https://viaplaceholder.com/40" alt="Image40"></a>       
+            <a href="https://placeholder.com"><img src="https://viaplaceholder.com/40" alt="Image40"></a> 
+        </div>
+        <hr/>
+        <main class="Contact">
+          <h3>Contact us</h3>
+            <form>
+             <input type="email" placeholder="@"><br/>
+             <input type="text" placeholder="&#8962;"><br/>
+             <select>
+               <option value="I have seen one of them">I have seen one of them</option>
+             </select><br/>
+             <textarea placeholder="Your message"></textarea><br/>
+             <button type ="submit">Send !</button>
+            </form>
+        </main>
+        <footer>
+            <ul class="footer1">
+                <li>About us</li>
+                <li>Fellows</li>
+                <li>Join our army</li>
+                <li>FAQ</li>
+                <li>Reward conditions</li>
+                <li>Legal mentions</li>
+            </ul>
+            <ul>
+            <li>Sauron4Ever.com<br>
+                Follow him also on Twitter
+                        </li>
+           </ul>
+        </footer>
+    </body>
+</html>
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #a7a1a1;
+}
+
+.nav {
+  display: flex;
+  background-color: #3d3d3d;
+  font-size: 20px;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.nav li {
+  padding: 10px;
+}
+#precious {
+  font-size: 18px;
+}
+#fellows {
+  background-color: #bbbbbb;
+  padding: 9px 20px 7px 20px;
+}
+.carousel {
+  background-color: #cccccc;
+  display: flex;
+  justify-content: center;
+}
+h2 {
+  text-align: center;
+  font-size: 24px;
+  margin: 22px ;
+}
+#alive {
+  font-size: 14px;
+}
+#allarticles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#allarticles article {
+  background-color: grey;
+  height: 250px;
+  width: 200px;
+  margin: 30px;
+}
+
+h3 {
+  text-align: left;
+  font-size: 24px;
+  margin: 30px 0px;
+}
+.Contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 80%;
+}
+input,
+textarea {
+  width: 100%;
+  margin: 5px 0;
+  border: 1px solid #000000;
+}
+select {
+  width: 100%;
+  margin: 5px 0;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+textarea {
+  font-size: 12px;
+  height: 60px;
+  width: 100%;
+}
+button {
+  background-color: #999999;
+  color: black;
+  align-items: flex-end;
+  padding: 7px 15px;
+  border-radius: 7px;
+  font-size: 10px;
+}
+footer {
+  background-color: #111111;
+  display: flex;
+  flex-flow: column wrap;
+  height: 100px;
+  margin-top: 30px;
+  justify-content: center;
+  font-size: 14px;
+  color: #999999;
+
+}
+.footer1 {
+  display: flex;
+  flex-flow: column wrap;
+  height: 90px;
+  list-style-type: none;
+  margin: 0px 0px 0px 20px;
+}
+.footer1 li {
+  margin: 10px 0px 0px 0px;
+}
+footer p {
+  align-self: flex-end;
+  margin-right: 30px;
+}
+
+
+  #allarticles {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  #allarticles article {
+    background-color: #cccccc;
+    height: 120px;
+    width: 70%;
+    margin: 10px;
+  }
+  h3 {
+    text-align: center;
+  }
+  footer {
+    flex-flow: column nowrap;
+    height: 200px;
+  }
+  .footer1 {
+    display: flex;
+    flex-flow: column nowrap;
+    height: 150px;
+    margin: 10px 0 0 0;
+    align-self: center;
+  }
+  .footer1 li {
+    margin: 8px ;
+    text-align: center;
+  }
+  footer p {
+    align-self: center;
+    text-align: center;
+    margin-right: 0;
+  }
